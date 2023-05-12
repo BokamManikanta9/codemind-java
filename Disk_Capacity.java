@@ -1,14 +1,15 @@
-import java.util.*;
-public class solution
+import java.util.Scanner;
+public class Sample
 {
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
-        int t,s,b,c;
+        int t,s,b,C;
         t=sc.nextInt();
         s=sc.nextInt();
         b=sc.nextInt();
-        c=2*t*s*b*512;
-        System.out.print(c);
+        C=2*t*s*b*512;
+        System.out.println(C);
+        sc.close();
     }
 }
